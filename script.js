@@ -144,7 +144,7 @@ $(document).ready(function() {
 
 		setTimeout(function(){
 			loaderDone = true;
-		}, 700);
+		}, 2700);
 
 
 		//check to make sure the document has been fully loaded before removing loader
