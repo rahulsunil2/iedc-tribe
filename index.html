@@ -1,67 +1,99 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <title>Join Tribe</title>
-    <meta name="description" content="Join Tribe."
-    />
-    <meta name="author" content="Rahul Sunil" />
+    <meta charset="UTF-8">
+    <title>IEDC - Design Hack</title>
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/style.css'>
+    <link rel="stylesheet" href="./style.css">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
-
-    <!-- Logos -->
-    <link rel="apple-touch-icon" href="icons/apple-icon-180.png" />
-
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-    <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-    <style type="text/css">
-        html {
-            margin: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        
-        iframe {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            border: 0;
-        }
-    </style>
 </head>
 
 <body>
-    <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/wjNeARHZ?typeform-medium=embed-snippet"></iframe>
-    <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
+    <!-- partial:index.partial.html -->
+    <div id="initial-loader" class="padded"><span id="loader-text"></span></div>
+
+    <div id="main-body">
+        <section id="page-structure" class="ajax">
+            <header class="eliza height-95 black back-block-green-bottom-right">
+                <nav class="padded">
+                    <a href="https://iedcmbcet.com/" target="_blank"><img src="https://iedcmbcet.com/img/logo.png" id="catalyst-logo"></a>
+                </nav>
+                <div class="header-text grid_row padded-horizontal">
+                    <h2 class="grid2">For Designers. By Designers. Come. Join. Us.</h2>
+                    <h1 class="grid3">Coming Soon.</h1>
+                </div>
+
+                <div id="canvas">
+                    <img id="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/header-home-fallback.jpg" data-fallback="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/header-home-fallback.jpg">
+                </div>
+            </header>
+        </section>
+        </footer>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/CopyShader.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/03_glitch.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/EffectComposer.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/RenderPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/ShaderPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/MaskPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/08_texturepass.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/GlitchPass.js'></script>
+        <script src="./script.js"></script>
+
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IEDC - Design Hack</title>
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/style.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="initial-loader" class="padded"><span id="loader-text"></span></div>
+
+    <div id="main-body">
+        <section id="page-structure" class="ajax">
+            <header class="eliza height-95 black back-block-green-bottom-right">
+                <nav class="padded">
+                    <a href="https://iedcmbcet.com/" target="_blank"><img src="https://iedcmbcet.com/img/logo.png" id="catalyst-logo"></a>
+                </nav>
+                <div class="header-text grid_row padded-horizontal">
+                    <h2 class="grid2">For Designers. By Designers. Come. Join. Us.</h2>
+                    <h1 class="grid3">Coming Soon.</h1>
+                </div>
+
+                <div id="canvas">
+                    <img id="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/header-home-fallback.jpg" data-fallback="https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/header-home-fallback.jpg">
+                </div>
+            </header>
+        </section>
+        </footer>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/CopyShader.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/03_glitch.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/EffectComposer.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/RenderPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/ShaderPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/MaskPass.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/141552/08_texturepass.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-18/GlitchPass.js'></script>
+        <script src="./script.js"></script>
+
 </body>
 
 </html>
